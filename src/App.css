@@ -1,0 +1,40 @@
+.container {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters input[type="text"],
+.filters select {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.course-item:nth-child(even) {
+  background-color: #f9f9f9; /* Optional: alternate row colors */
+}

@@ -1,0 +1,27 @@
+.container {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters input[type="text"],
+.filters select {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.course-item {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
